@@ -1,3 +1,14 @@
+/*
+TEAM PLAN:
+Cycle 1 (Driver: [Joao]): Extract components, import data, render unstyled cards
+Cycle 2 (Driver: [Jasleen]): Build responsive grid layout with Tailwind
+Cycle 3 (Driver: [Joao]): Style card details, buttons, typography, and add hover effects
+
+Grid: 1 column mobile, 2 columns tablet, 3 columns desktop
+Colors: Dark bg (#1a1a1a), white cards, accent green (#10b981) for buttons
+*/
+
+
 //This functions returns a card item component with title, description, and image
 import Image from 'next/image';
 
@@ -9,7 +20,7 @@ export default function CardItem({ title, subtitle, description, imgPath, price,
                     <Image src={imgPath} alt={title} layout="fill" objectFit="cover" />
                 </div>
                 <div className="p-4">
-                    <h3 className="text-lg font-semibold">{title}</h3>
+                    <h3 className="text-lg font-semibold dark: text-black">{title}</h3>
                     <p className="text-sm text-gray-500">{subtitle}</p>
                 </div>
             </header>
