@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import CardLayout from './components/CardLayout';
+
 export default function Home() {
   return (
     <div>
@@ -31,6 +33,7 @@ export default function Home() {
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Eveniet, temporibus.
                 </p>
+                < CardLayout />
                 <div>
                   {/* The Link will follow up to a separate dynamic route that we'll make in a later lab */}
                   <Link href="#">Secondary Action</Link>
