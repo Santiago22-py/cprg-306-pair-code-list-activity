@@ -19,20 +19,7 @@ export default function Home() {
           <div>
             {/* TODO: Create a responsive card grid here. use the following to template your card content and style with tailwind */}
             <article>
-              <header>
-                <div>{/* IMG Goes Here */}</div>
-                <div>
-                  <h3>Card Title</h3>
-                  <p>
-                    <strong>Card subheading</strong>
-                  </p>
-                </div>
-              </header>
               <div>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Eveniet, temporibus.
-                </p>
                 < CardLayout />
                 <div>
                   {/* The Link will follow up to a separate dynamic route that we'll make in a later lab */}
